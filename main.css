@@ -1,3 +1,11 @@
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-height: 100vh;
+}
+
 .scoreboard-container {
     display: flex;
     flex-direction: row;
@@ -92,6 +100,7 @@
 .details-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .counts-container {
@@ -101,10 +110,12 @@
 
 .thread-count {
     margin-right: 30px;
+    margin-bottom: 0px;
 }
 
 .message-count {
     margin-right: 30px;
+    margin-bottom: 0px;
 }
 
 .player-name {
@@ -116,4 +127,66 @@
 .player-score {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.timer {
+    margin-bottom: 0px;
+}
+
+.player-responses-header {
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+.favorite-response {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.response {
+    width: 314px;
+    height: 112px;
+    background-color: #d3d3d3;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    font-size: 87%;
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+    margin-bottom: 15px;
+}
+
+.responses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1301px) and (-webkit-min-device-pixel-ratio: 3) {
+    .dashboard {
+        flex-direction: column-reverse;
+    }
+
+    .scoreboard-container {
+        margin-bottom: 0px;
+        margin-top: 35px;
+        margin-right: 0px;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .text-container {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .thread-count {
+        margin-right: 15px;
+    }
 }
