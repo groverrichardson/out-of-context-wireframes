@@ -11,7 +11,7 @@
 
 .scoreboard-header {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 11px;
 }
 
 .player-container {
@@ -19,8 +19,10 @@
     flex-direction: row;
     width: 125px;
     justify-content: space-between;
-    margin-top: 11px;
+    margin-top: 0px;
     height: 18px;
+    align-items: center;
+    margin-bottom: 14px;
 }
 
 .edit-button {
@@ -103,4 +105,15 @@
 
 .message-count {
     margin-right: 30px;
+}
+
+.player-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-score {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
