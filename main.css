@@ -166,7 +166,7 @@ body {
     flex-wrap: wrap;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 1301px) and (-webkit-min-device-pixel-ratio: 3) {
+@media screen and (max-width: 1262px) {
     .dashboard {
         flex-direction: column-reverse;
     }
@@ -188,5 +188,10 @@ body {
 
     .thread-count {
         margin-right: 15px;
+    }
+
+    .response {
+        width: 100%;
+        margin-right: 0px;
     }
 }
