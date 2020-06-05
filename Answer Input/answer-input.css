@@ -181,6 +181,14 @@ body {
     font-size: 24px;
 }
 
+.submit-button {
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 @media screen and (max-width: 1262px) {
     .dashboard {
         flex-direction: column-reverse;
